@@ -3,7 +3,7 @@
 //  ImageCropView
 //
 //  Created by iOSFreak57 on 26/04/20.
-//  Copyright © 2020 BalgeDesingStudios. All rights reserved.
+//  Copyright © 2020 BalgeDesignStudios. All rights reserved.
 //
 
 import UIKit
