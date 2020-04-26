@@ -486,17 +486,6 @@ extension ImageCropView {
         for constraint in self.bottomButton.constraints where constraint.firstAttribute == .width {
             constraint.constant = width - 100.0
         }
-//        if width > defaultWidth + 5 || height > defaultHeight + 10{
-//            if self.centerButton.isEnabled{
-//                self.centerButton.isEnabled = false
-//                self.centerButton.isHidden = true
-//            }
-//        }else{
-//            if !self.centerButton.isEnabled{
-//                self.centerButton.isEnabled = true
-//                self.centerButton.isHidden = false
-//            }
-//        }
         self.dimView.layoutIfNeeded()
         
         let path = UIBezierPath(rect: CGRect(
